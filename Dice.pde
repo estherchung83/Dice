@@ -66,7 +66,7 @@ void mousePressed()
 }
 class Die //models one single dice cube
 {
-  int dx, int dy;
+  int dx, dy;
   
   Die(int x, int y) //constructor
   {
