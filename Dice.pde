@@ -1,16 +1,16 @@
 
 void setup()
 {
-  size(700,700);
+  size(900,800);
   noLoop();
   
 }
 void draw()
 {
 
-  for(int y = 20; y <= 580; y+=60)
+  for(int y = 35; y <= 580; y+=60)
   {
-    for(int x = 30; x <= 590; x+=60)
+    for(int x = 35; x <= 590; x+=60)
     {
       Die ex = new Die(x,y);
       ex.show();
